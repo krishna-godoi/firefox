@@ -1,0 +1,84 @@
+/*
+* This Source Code Form is subject to the terms of the Mozilla Public
+* License, v. 2.0. If a copy of the MPL was not distributed with this
+* file, You can obtain one at https://mozilla.org/MPL/2.0/.
+*/
+
+#urlbar-search-mode-indicator {
+  background-color: transparent !important;
+  padding-inline-start: 0px !important;
+
+  & #urlbar-search-mode-indicator-close {
+    display: none !important;
+  }
+}
+
+
+#identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage)>.identity-box-button {
+  &:not(:hover) {
+    background-color: transparent !important;
+  }
+
+  & image {
+    list-style-image: url("../icons/firefox.svg") !important;
+  }
+
+  & #identity-icon-label {
+    display: none !important;
+  }
+
+  fill: var(--toolbarbutton-icon-fill) !important;
+}
+
+#identity-box[pageproxystate="invalid"]:is(.chromeUI) {
+  margin-inline-end: 0px !important;
+}
+
+#urlbar-container {
+  --urlbar-container-height: 100vh !important;
+  --urlbar-margin-inline: 0px !important;
+  position: fixed !important;
+  background-color: transparent !important;
+  pointer-events: none;
+  overflow: hidden;
+  top: 44px;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999;
+  width: auto !important;
+}
+
+#urlbar-background {
+  border-radius: 6px !important;
+}
+
+#main-window #urlbar {
+  opacity: 100 !important;
+  width: calc(100vw - 40px) !important;
+  position: absolute !important;
+  top: -300px !important;
+  left: 20px !important;
+  pointer-events: all;
+  --urlbar-container-height: 34px !important;
+
+  &[breakout="true"][breakout-extend="true"],
+  &:focus-within {
+    top: 10px !important;
+  }
+
+  #urlbar-input {
+    font-size: 16px !important;
+  }
+}
+
+#PersonalToolbar {
+  display: none;
+}
+
+#wrapper-urlbar-container {
+  visibility: collapse;
+}
+
+#nav-bar-customization-target {
+  min-width: unset !important;
+}
