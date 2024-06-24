@@ -21,7 +21,7 @@ So I added some JS scripts to handle that behavior and add:
 
 And of course, we still have the regular keyboard shortcuts for using firefox without a mouse:    
 <kbd>Ctrl</kbd> + <kbd>L</kbd>: Show and focus the urlbar    
-<kbd>Ctrl</kbd> + <kbd>K</kbd>: Show and focus the urlbar in search mode    
+<kbd>Ctrl</kbd> + <kbd>J</kbd> or <kbd>K</kbd> (might conflict with some websites like github): Show and focus the urlbar in search mode    
 <kbd>Ctrl</kbd> + <kbd>T</kbd>: Open new tab    
 <kbd>Ctrl</kbd> + <kbd>W</kbd>: Close current tab    
 
