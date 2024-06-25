@@ -26,7 +26,7 @@ user_pref("browser.tabs.cardPreview.showThumbnails", true);
 user_pref("uc.tweak.round-browser", true);
 user_pref("uc.tweak.browser-margins", true);
 user_pref("uc.tweak.no-window-controls", true);
-user_pref("uc.tweak.translucency", false); // hyprland already adds translucency for alpha-reduced bg colors
+user_pref("uc.tweak.translucency", true);
 user_pref("uc.tweak.bottom-nav", false);
 
 

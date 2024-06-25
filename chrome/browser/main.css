@@ -10,15 +10,11 @@
 @import url("window-controls.css");
 
 .tab-background:is([selected], [multiselected]) {
-  @media (-moz-bool-pref: "uc.tweak.translucency") {
-    background-color: transparent !important;
-  }
-
   box-shadow: none !important;
 }
 
 body {
-  background-color: rgba(18, 18, 20, 0.95) !important;
+  background-color: var(--user-bg) !important;
 }
 
 #navigator-toolbox,
@@ -56,7 +52,8 @@ body {
   display: none !important;
 }
 
-#back-button {
+#back-button,
+#reload-button {
   color: #efefff !important;
 }
 
