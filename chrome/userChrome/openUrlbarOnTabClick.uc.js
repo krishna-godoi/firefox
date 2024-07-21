@@ -9,6 +9,6 @@ console.log("openUrlBarOnTabClick");
 
 (() => {
 	gBrowser.tabContainer.addEventListener("dblclick", () => {
-		document.querySelector("#urlbar-input-container").click();
+		document.querySelector("#urlbar-container .urlbar-input-container").click();
 	}, false);
 })();
