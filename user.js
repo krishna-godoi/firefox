@@ -23,8 +23,8 @@ user_pref("browser.compactmode.show", true);
 user_pref("browser.tabs.cardPreview.showThumbnails", true);
 
 /* uc customizations (taken from minifox) */
-user_pref("uc.tweak.round-browser", true);
-user_pref("uc.tweak.browser-margins", true);
+user_pref("uc.tweak.round-browser", false);
+user_pref("uc.tweak.browser-margins", false);
 user_pref("uc.tweak.no-window-controls", true);
 user_pref("uc.tweak.translucency", true);
 user_pref("uc.tweak.bottom-nav", false);
